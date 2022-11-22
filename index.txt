@@ -147,3 +147,6 @@ window.addEventListener('keydown', e =>{
     }
 
 });
+
+
+<footer><a href="game.html">play game</a></footer>
