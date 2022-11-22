@@ -56,9 +56,21 @@ function divMaker(text){
             h2_answer.style.display="none";
         }
     })
+    flashcards.appendChild(div);
 
-        flashcards.appendChild(div);
+    var text = document.createTextNode("Del");
+    var butt = document.createElement('button');
+    butt.appendChild(text);
+    butt.addEventListener('click', function(){
+        div.style.display = "none";
+        butt.style.display = "none";
+    });
+    butt.setAttribute('style', 'text-align:center; color:black; font-size: 15px; margin:0; padding: 0');
+    flashcards.appendChild(butt);
+
 }
+
 
 //option to delete one card, stack subject wise- probably diff webpages, share flashcrads w friends
 //make one after the other not all like a library view
+//<footer><a href="game.html">play game</a></footer>
