@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#heading{
+    background: hsl(285, 95%, 49%);
+    text-align: center;
+    padding-top: 5%;
+    font-size: 200%;
+}
+.body{
+    background: hsl(285, 95%, 49%);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+}
+#marioLand{
+    background: url(download.png);
+    width: 120vmin;
+    height: 60vmin;
+    border: 2px solid black1;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+.head{
+    background: linear-gradient(
+    to bottom,
+    red 0%,
+    red 50%,
+    white 50%,
+    white 100%
+  );
+    }
+.food{
+    background-color: rgb(240, 84, 0);
+    }
+.fluffy {
+    background-color: red;
+}
+.right{
+    position: absolute;
+    width: 12vmin;
+    height: 6vmin;
+}
+.wrong{
+    background-color: coral;
+    position: absolute;
+    bottom: 5000px;
+    left: 1px;
+}
